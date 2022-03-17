@@ -18,7 +18,7 @@ public class Waktu {
         Waktu selisih;
         // memanggil method perbedaan
         selisih = perbedaan(mulai, selesai);
-        System.out.printf("Selisih Waktu: %d:%d:%d - ", selesai.jam, selesai.menit, selisih.detik);
+        System.out.printf("Selisih Waktu: %d:%d:%d - ", selesai.jam, selesai.menit, selesai.detik);
         System.out.printf("%d:%d:%d ", mulai.jam, mulai.menit, mulai.detik);
         System.out.printf("= %d:%d:%d\n", selisih.jam, selisih.menit, selisih.detik);
     }
